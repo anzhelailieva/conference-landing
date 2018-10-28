@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-family: "Raleway", cursive;
+}
+header {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/header-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navigation {
+  background-color: #2b2728;
+  opacity: 0.5;
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  width: 100%;
+  height: 80px;
+}
+.navigation p {
+  float: left;
+  margin-left: 5%;
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 100px;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+nav {
+  position: sticky;
+  float: right;
+  margin-right: 5%;
+  margin-top: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 100px;
+  padding: 5px 0;
+}
+.navigation li a:hover {
+  border-bottom: 2px solid whitesmoke;
+}
+.header-content {
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-content h1 {
+  width: 800px;
+  font-size: 28px;
+  color: #ffffff;
+  word-wrap: break-word;
+  text-shadow: 2px 2px #000000;
+  margin-bottom: 5%;
+}
+.header-main {
+  font-size: 18px;
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  left: 3%;
+}
+.header-main div {
+  width: 22%;
+  margin-left: 1%;
+  display: inline-block;
+}
+.header-main div:hover {
+  border-bottom: 2px solid #e84550;
+  opacity: 0.5;
+}
+header i {
+  margin-bottom: 3%;
+  font-size: 30px;
+}
+
+.colorchange {
+  animation: colorchangecake 1s infinite;
+}
+
+@keyframes colorchangecake {
+  0% {
+    color: whitesmoke;
+  }
+
+  25% {
+    color: white;
+  }
+
+  50% {
+    color: #333333;
+  }
+
+  100% {
+    color: #333333;
+  }
+}
+
+/*Main content*/
+
+main {
+  width: 100%;
+  height: 700px;
+  font-size: 15px;
+}
+.main-content {
+  margin-left: 6%;
+  margin-top: 5%;
+  width: 90%;
+  height: 600px;
+  display: inline-flex;
+}
+
+.main-content div {
+  width: 30%;
+  height: 380px;
+  margin-left: 4%;
+  margin-top: 15%;
+  /* background-color: red; */
+}
+.image-container {
+  width: 25%;
+  height: 390px;
+  background-color: red;
+  opacity: 0.5;
+  position: absolute;
+  top: 900px;
+  right: 15%;
+}
+hr {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.fisrt p {
+  text-align: right;
+  margin-top: 3%;
+  font-size: 20px;
+}
+.fisrt h3 {
+  text-align: right;
+  margin-top: 5%;
+  font-size: 25px;
+}
